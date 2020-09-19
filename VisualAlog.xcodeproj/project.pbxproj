@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4BFE0912515F9A10099DE05 /* imgui_impl_opengl3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4BFE08E2515F9A10099DE05 /* imgui_impl_opengl3.cpp */; };
+		F4BFE0922515F9A10099DE05 /* imgui_impl_glfw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4BFE08F2515F9A10099DE05 /* imgui_impl_glfw.cpp */; };
+		F4BFE0982515F9CC0099DE05 /* imgui_draw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4BFE0932515F9CC0099DE05 /* imgui_draw.cpp */; };
+		F4BFE0992515F9CC0099DE05 /* imgui_widgets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4BFE0952515F9CC0099DE05 /* imgui_widgets.cpp */; };
+		F4BFE09A2515F9CC0099DE05 /* imgui_demo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4BFE0962515F9CC0099DE05 /* imgui_demo.cpp */; };
+		F4BFE09B2515F9CC0099DE05 /* imgui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4BFE0972515F9CC0099DE05 /* imgui.cpp */; };
+		F4BFE0A52516005F0099DE05 /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = F4BFE0A22516005F0099DE05 /* glad.c */; };
+		F4FDE9AB2515EC5400FFE8AD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4FDE9AA2515EC5400FFE8AD /* main.cpp */; };
+		F4FDE9C32515EDE300FFE8AD /* libglfw3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4FDE9C12515EDE300FFE8AD /* libglfw3.a */; };
+		F4FDE9CA2515EEA200FFE8AD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4FDE9C92515EEA200FFE8AD /* Cocoa.framework */; };
+		F4FDE9CC2515EEB000FFE8AD /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4FDE9CB2515EEB000FFE8AD /* OpenGL.framework */; };
+		F4FDE9CE2515EEC800FFE8AD /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4FDE9CD2515EEC800FFE8AD /* IOKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F4FDE9A52515EC5400FFE8AD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F4BFE08D2515F9A10099DE05 /* imgui_impl_glfw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imgui_impl_glfw.h; sourceTree = "<group>"; };
+		F4BFE08E2515F9A10099DE05 /* imgui_impl_opengl3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = imgui_impl_opengl3.cpp; sourceTree = "<group>"; };
+		F4BFE08F2515F9A10099DE05 /* imgui_impl_glfw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = imgui_impl_glfw.cpp; sourceTree = "<group>"; };
+		F4BFE0932515F9CC0099DE05 /* imgui_draw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = imgui_draw.cpp; sourceTree = "<group>"; };
+		F4BFE0942515F9CC0099DE05 /* imgui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imgui.h; sourceTree = "<group>"; };
+		F4BFE0952515F9CC0099DE05 /* imgui_widgets.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = imgui_widgets.cpp; sourceTree = "<group>"; };
+		F4BFE0962515F9CC0099DE05 /* imgui_demo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = imgui_demo.cpp; sourceTree = "<group>"; };
+		F4BFE0972515F9CC0099DE05 /* imgui.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = imgui.cpp; sourceTree = "<group>"; };
+		F4BFE09C2515F9E20099DE05 /* imconfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = imconfig.h; sourceTree = "<group>"; };
+		F4BFE09D2515FA170099DE05 /* imgui_impl_opengl3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = imgui_impl_opengl3.h; sourceTree = "<group>"; };
+		F4BFE09E2515FA9B0099DE05 /* imgui_internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = imgui_internal.h; sourceTree = "<group>"; };
+		F4BFE09F2515FADA0099DE05 /* imstb_textedit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = imstb_textedit.h; sourceTree = "<group>"; };
+		F4BFE0A02515FAE10099DE05 /* imstb_truetype.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = imstb_truetype.h; sourceTree = "<group>"; };
+		F4BFE0A12515FAEA0099DE05 /* imstb_rectpack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = imstb_rectpack.h; sourceTree = "<group>"; };
+		F4BFE0A22516005F0099DE05 /* glad.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glad.c; sourceTree = "<group>"; };
+		F4BFE0A32516005F0099DE05 /* glad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glad.h; sourceTree = "<group>"; };
+		F4BFE0A42516005F0099DE05 /* khrplatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = khrplatform.h; sourceTree = "<group>"; };
+		F4FDE9A72515EC5400FFE8AD /* VisualAlog */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = VisualAlog; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4FDE9AA2515EC5400FFE8AD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F4FDE9BE2515EDCE00FFE8AD /* glfw3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = glfw3.h; sourceTree = "<group>"; };
+		F4FDE9BF2515EDCE00FFE8AD /* glfw3native.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = glfw3native.h; sourceTree = "<group>"; };
+		F4FDE9C12515EDE300FFE8AD /* libglfw3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libglfw3.a; sourceTree = "<group>"; };
+		F4FDE9C92515EEA200FFE8AD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F4FDE9CB2515EEB000FFE8AD /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		F4FDE9CD2515EEC800FFE8AD /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4FDE9A42515EC5400FFE8AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4FDE9CE2515EEC800FFE8AD /* IOKit.framework in Frameworks */,
+				F4FDE9CC2515EEB000FFE8AD /* OpenGL.framework in Frameworks */,
+				F4FDE9CA2515EEA200FFE8AD /* Cocoa.framework in Frameworks */,
+				F4FDE9C32515EDE300FFE8AD /* libglfw3.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4BFE08C2515F9960099DE05 /* imgui */ = {
+			isa = PBXGroup;
+			children = (
+				F4BFE0A12515FAEA0099DE05 /* imstb_rectpack.h */,
+				F4BFE0A02515FAE10099DE05 /* imstb_truetype.h */,
+				F4BFE09C2515F9E20099DE05 /* imconfig.h */,
+				F4BFE09F2515FADA0099DE05 /* imstb_textedit.h */,
+				F4BFE0962515F9CC0099DE05 /* imgui_demo.cpp */,
+				F4BFE09E2515FA9B0099DE05 /* imgui_internal.h */,
+				F4BFE0932515F9CC0099DE05 /* imgui_draw.cpp */,
+				F4BFE0952515F9CC0099DE05 /* imgui_widgets.cpp */,
+				F4BFE0972515F9CC0099DE05 /* imgui.cpp */,
+				F4BFE0942515F9CC0099DE05 /* imgui.h */,
+				F4BFE09D2515FA170099DE05 /* imgui_impl_opengl3.h */,
+				F4BFE08F2515F9A10099DE05 /* imgui_impl_glfw.cpp */,
+				F4BFE08D2515F9A10099DE05 /* imgui_impl_glfw.h */,
+				F4BFE08E2515F9A10099DE05 /* imgui_impl_opengl3.cpp */,
+			);
+			path = imgui;
+			sourceTree = "<group>";
+		};
+		F4FDE99E2515EC5400FFE8AD = {
+			isa = PBXGroup;
+			children = (
+				F4FDE9A92515EC5400FFE8AD /* VisualAlog */,
+				F4FDE9A82515EC5400FFE8AD /* Products */,
+				F4FDE9C82515EEA100FFE8AD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F4FDE9A82515EC5400FFE8AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4FDE9A72515EC5400FFE8AD /* VisualAlog */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4FDE9A92515EC5400FFE8AD /* VisualAlog */ = {
+			isa = PBXGroup;
+			children = (
+				F4FDE9B12515ECF000FFE8AD /* libs */,
+				F4FDE9AA2515EC5400FFE8AD /* main.cpp */,
+			);
+			path = VisualAlog;
+			sourceTree = "<group>";
+		};
+		F4FDE9B12515ECF000FFE8AD /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				F4BFE08C2515F9960099DE05 /* imgui */,
+				F4FDE9C42515EE3E00FFE8AD /* glad */,
+				F4FDE9BB2515ED1200FFE8AD /* glfw */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		F4FDE9BB2515ED1200FFE8AD /* glfw */ = {
+			isa = PBXGroup;
+			children = (
+				F4FDE9C12515EDE300FFE8AD /* libglfw3.a */,
+				F4FDE9BC2515EDCE00FFE8AD /* include */,
+			);
+			path = glfw;
+			sourceTree = "<group>";
+		};
+		F4FDE9BC2515EDCE00FFE8AD /* include */ = {
+			isa = PBXGroup;
+			children = (
+				F4FDE9BD2515EDCE00FFE8AD /* GLFW */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		F4FDE9BD2515EDCE00FFE8AD /* GLFW */ = {
+			isa = PBXGroup;
+			children = (
+				F4FDE9BE2515EDCE00FFE8AD /* glfw3.h */,
+				F4FDE9BF2515EDCE00FFE8AD /* glfw3native.h */,
+			);
+			path = GLFW;
+			sourceTree = "<group>";
+		};
+		F4FDE9C42515EE3E00FFE8AD /* glad */ = {
+			isa = PBXGroup;
+			children = (
+				F4BFE0A22516005F0099DE05 /* glad.c */,
+				F4BFE0A32516005F0099DE05 /* glad.h */,
+				F4BFE0A42516005F0099DE05 /* khrplatform.h */,
+			);
+			path = glad;
+			sourceTree = "<group>";
+		};
+		F4FDE9C82515EEA100FFE8AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4FDE9CD2515EEC800FFE8AD /* IOKit.framework */,
+				F4FDE9CB2515EEB000FFE8AD /* OpenGL.framework */,
+				F4FDE9C92515EEA200FFE8AD /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4FDE9A62515EC5400FFE8AD /* VisualAlog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4FDE9AE2515EC5400FFE8AD /* Build configuration list for PBXNativeTarget "VisualAlog" */;
+			buildPhases = (
+				F4FDE9A32515EC5400FFE8AD /* Sources */,
+				F4FDE9A42515EC5400FFE8AD /* Frameworks */,
+				F4FDE9A52515EC5400FFE8AD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VisualAlog;
+			productName = VisualAlog;
+			productReference = F4FDE9A72515EC5400FFE8AD /* VisualAlog */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4FDE99F2515EC5400FFE8AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = pan;
+				TargetAttributes = {
+					F4FDE9A62515EC5400FFE8AD = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = F4FDE9A22515EC5400FFE8AD /* Build configuration list for PBXProject "VisualAlog" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4FDE99E2515EC5400FFE8AD;
+			productRefGroup = F4FDE9A82515EC5400FFE8AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4FDE9A62515EC5400FFE8AD /* VisualAlog */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4FDE9A32515EC5400FFE8AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4BFE0992515F9CC0099DE05 /* imgui_widgets.cpp in Sources */,
+				F4BFE0912515F9A10099DE05 /* imgui_impl_opengl3.cpp in Sources */,
+				F4FDE9AB2515EC5400FFE8AD /* main.cpp in Sources */,
+				F4BFE0982515F9CC0099DE05 /* imgui_draw.cpp in Sources */,
+				F4BFE09B2515F9CC0099DE05 /* imgui.cpp in Sources */,
+				F4BFE09A2515F9CC0099DE05 /* imgui_demo.cpp in Sources */,
+				F4BFE0922515F9A10099DE05 /* imgui_impl_glfw.cpp in Sources */,
+				F4BFE0A52516005F0099DE05 /* glad.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F4FDE9AC2515EC5400FFE8AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F4FDE9AD2515EC5400FFE8AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F4FDE9AF2515EC5400FFE8AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/VisualAlog/libs/glfw/include";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VisualAlog/libs/glfw",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		F4FDE9B02515EC5400FFE8AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/VisualAlog/libs/glfw/include";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VisualAlog/libs/glfw",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4FDE9A22515EC5400FFE8AD /* Build configuration list for PBXProject "VisualAlog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4FDE9AC2515EC5400FFE8AD /* Debug */,
+				F4FDE9AD2515EC5400FFE8AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4FDE9AE2515EC5400FFE8AD /* Build configuration list for PBXNativeTarget "VisualAlog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4FDE9AF2515EC5400FFE8AD /* Debug */,
+				F4FDE9B02515EC5400FFE8AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4FDE99F2515EC5400FFE8AD /* Project object */;
+}
